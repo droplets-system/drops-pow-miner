@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "drops-miner",
+  "type": "module",
+  "scripts": {
+    "start": "bun --watch index.ts"
+  },
+  "dependencies": {
+    "@wharfkit/session": "1.x",
+    "@wharfkit/wallet-plugin-privatekey": "1.x",
+    "log-update": "^6.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "latest"
+  }
+}
